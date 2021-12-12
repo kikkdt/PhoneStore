@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{92AFEBB3-0A72-4E8F-B1EF-6915951DC921}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PhoneStore</RootNamespace>
+    <AssemblyName>PhoneStore</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CTHDNhapHangReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CTHDNhapHangReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CTHDNhapHangGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CTHDNhapHangGUI.Designer.cs">
+      <DependentUpon>CTHDNhapHangGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhapGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhapGUI.Designer.cs">
+      <DependentUpon>DangNhapGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\ChucVuDAO.cs" />
+    <Compile Include="DAO\CTHDNhapHangDAO.cs" />
+    <Compile Include="DAO\DanhMucDAO.cs" />
+    <Compile Include="DAO\GiaBanDAO.cs" />
+    <Compile Include="DAO\HDNhapHangDAO.cs" />
+    <Compile Include="DAO\KhoHangDAO.cs" />
+    <Compile Include="DAO\NhanVienDAO.cs" />
+    <Compile Include="DAO\NhomSanPhamDAO.cs" />
+    <Compile Include="DAO\SanPhamDAO.cs" />
+    <Compile Include="DAO\SqlServerProvider.cs" />
+    <Compile Include="DAO\TaiKhoanDAO.cs" />
+    <Compile Include="DAO\TrangThaiSanPhamDAO.cs" />
+    <Compile Include="DoiMatKhauGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoiMatKhauGUI.Designer.cs">
+      <DependentUpon>DoiMatKhauGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\ChucVuDTO.cs" />
+    <Compile Include="DTO\CTHDNhapHangDTO.cs" />
+    <Compile Include="DTO\DanhMucDTO.cs" />
+    <Compile Include="DTO\GiaBanDTO.cs" />
+    <Compile Include="DTO\HDNhapHangDTO.cs" />
+    <Compile Include="DTO\KhoHangDTO.cs" />
+    <Compile Include="DTO\NhanVienDTO.cs" />
+    <Compile Include="DTO\NhomSanPhamDTO.cs" />
+    <Compile Include="DTO\SanPhamDTO.cs" />
+    <Compile Include="DTO\TaiKhoanDTO.cs" />
+    <Compile Include="DTO\TrangThaiSanPhamDTO.cs" />
+    <Compile Include="KhoHangGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhoHangGUI.Designer.cs">
+      <DependentUpon>KhoHangGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LichSuNhapHangGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LichSuNhapHangGUI.Designer.cs">
+      <DependentUpon>LichSuNhapHangGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainGUI.Designer.cs">
+      <DependentUpon>MainGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhanVienGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhanVienGUI.Designer.cs">
+      <DependentUpon>QLNhanVienGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhapHangGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhapHangGUI.Designer.cs">
+      <DependentUpon>QLNhapHangGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLSanPhamGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLSanPhamGUI.Designer.cs">
+      <DependentUpon>QLSanPhamGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongKeSanPhamTonGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongKeSanPhamTonGUI.Designer.cs">
+      <DependentUpon>ThongKeSanPhamTonGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongKeSanPhamTonReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ThongKeSanPhamTonReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="CTHDNhapHangReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CTHDNhapHangReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CTHDNhapHangGUI.resx">
+      <DependentUpon>CTHDNhapHangGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhapGUI.resx">
+      <DependentUpon>DangNhapGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoiMatKhauGUI.resx">
+      <DependentUpon>DoiMatKhauGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhoHangGUI.resx">
+      <DependentUpon>KhoHangGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LichSuNhapHangGUI.resx">
+      <DependentUpon>LichSuNhapHangGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainGUI.resx">
+      <DependentUpon>MainGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhanVienGUI.resx">
+      <DependentUpon>QLNhanVienGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhapHangGUI.resx">
+      <DependentUpon>QLNhapHangGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLSanPhamGUI.resx">
+      <DependentUpon>QLSanPhamGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongKeSanPhamTonGUI.resx">
+      <DependentUpon>ThongKeSanPhamTonGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongKeSanPhamTonReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ThongKeSanPhamTonReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%24this.Icon.ico" />
+    <None Include="Image\icons8-password-48.png" />
+    <None Include="Image\icons8-male-user-48.png" />
+    <None Include="Image\icons8-fast-cart-48.png" />
+    <None Include="Image\icons8-purchase-order-48.png" />
+    <None Include="Image\icons8-order-history-48.png" />
+    <None Include="Image\icons8-minus-32.png" />
+    <None Include="Image\icons8-add-32.png" />
+    <None Include="Image\icons8-rename-32.png" />
+    <None Include="Image\icons8-save-32.png" />
+    <None Include="Image\icons8-cancel-32.png" />
+    <None Include="Image\icons8-search-32.png" />
+    <None Include="Image\icons8-in-transit-48.png" />
+    <None Include="Image\icons8-fast-cart-96.png" />
+    <None Include="Image\icons8-in-transit-56.png" />
+    <None Include="Image\icons8-order-history-56.png" />
+    <None Include="Image\icons8-name-tag-56.png" />
+    <None Include="Image\icons8-user-settings-56.png" />
+    <None Include="Image\icons8-graph-56.png" />
+    <None Include="Image\icons8-graph-48.png" />
+    <None Include="Image\icons8-home-48.png" />
+    <None Include="Image\icons8-logout-48.png" />
+    <None Include="Image\icons8-logout-56.png" />
+    <None Include="Image\icons8-user-settings-48.png" />
+    <Content Include="Image\no-data.png" />
+    <Content Include="Image\Products\10289.jpg" />
+    <Content Include="Image\Products\12436.jpg" />
+    <Content Include="Image\Products\12443.jpg" />
+    <Content Include="Image\Products\16484.jpg" />
+    <Content Include="Image\Products\16520.jpg" />
+    <Content Include="Image\Products\16522.jpg" />
+    <Content Include="Image\Products\17016.jpg" />
+    <Content Include="Image\Products\17995.jpg" />
+    <Content Include="Image\Products\18373.jpg" />
+    <Content Include="Image\Products\18378.jpg" />
+    <Content Include="Image\Products\18383.jpg" />
+    <Content Include="Image\Products\18388.jpg" />
+    <Content Include="Image\Products\18395.jpg" />
+    <Content Include="Image\Products\18423.jpg" />
+    <Content Include="Image\Products\19669.jpg" />
+    <Content Include="Image\Products\20645.jpg" />
+    <Content Include="Image\Products\20852.jpg" />
+    <Content Include="Image\Products\21487.jpg" />
+    <Content Include="Image\Products\21489.jpg" />
+    <Content Include="Image\Products\21547.jpg" />
+    <Content Include="Image\Products\21630.png" />
+    <Content Include="Image\Products\21945.jpg" />
+    <Content Include="Image\Products\22380.jpg" />
+    <Content Include="Image\Products\22479.jpg" />
+    <Content Include="Image\Products\22483.jpg" />
+    <Content Include="Image\Products\22490.jpg" />
+    <Content Include="Image\Products\22699.jpg" />
+    <Content Include="Image\Products\23560.jpg" />
+    <Content Include="Image\Products\23584.jpg" />
+    <Content Include="Image\Products\24245.jpg" />
+    <Content Include="Image\Products\24604.jpg" />
+    <Content Include="Image\Products\24606.jpg" />
+    <Content Include="Image\Products\24746.jpg" />
+    <Content Include="Image\Products\25168.jpg" />
+    <Content Include="Image\Products\25203.jpg" />
+    <Content Include="Image\Products\25214.jpg" />
+    <Content Include="Image\Products\25217.jpg" />
+    <Content Include="Image\Products\25249.jpg" />
+    <Content Include="Image\Products\25251.jpg" />
+    <Content Include="Image\Products\25294.jpg" />
+    <Content Include="Image\Products\25473.jpg" />
+    <Content Include="Image\Products\25691.jpg" />
+    <Content Include="Image\Products\25693.jpg" />
+    <Content Include="Image\Products\25739.jpg" />
+    <Content Include="Image\Products\25740.jpg" />
+    <Content Include="Image\Products\25745.jpg" />
+    <Content Include="Image\Products\25863.jpg" />
+    <Content Include="Image\Products\25864.jpg" />
+    <Content Include="Image\Products\25892.jpg" />
+    <Content Include="Image\Products\26051.jpg" />
+    <Content Include="Image\Products\26054.jpg" />
+    <Content Include="Image\Products\26206.jpg" />
+    <Content Include="Image\Products\26220.jpg" />
+    <Content Include="Image\Products\26230.jpg" />
+    <Content Include="Image\Products\26390.jpg" />
+    <Content Include="Image\Products\26435.jpg" />
+    <Content Include="Image\Products\26565.jpg" />
+    <Content Include="Image\Products\26608.jpg" />
+    <Content Include="Image\Products\26795.jpg" />
+    <Content Include="Image\Products\26806.jpg" />
+    <Content Include="Image\Products\26846.jpg" />
+    <Content Include="Image\Products\27153.jpg" />
+    <Content Include="Image\Products\27199.jpg" />
+    <Content Include="Image\Products\27350.jpg" />
+    <Content Include="Image\Products\27435.jpg" />
+    <Content Include="Image\Products\27441.jpg" />
+    <Content Include="Image\Products\27451.jpg" />
+    <Content Include="Image\Products\27457.jpg" />
+    <Content Include="Image\Products\27463.jpg" />
+    <Content Include="Image\Products\27468.jpg" />
+    <Content Include="Image\Products\27473.jpg" />
+    <Content Include="Image\Products\27478.jpg" />
+    <Content Include="Image\Products\27485.jpg" />
+    <Content Include="Image\Products\27678.jpg" />
+    <Content Include="Image\Products\27852.jpg" />
+    <Content Include="Image\Products\27859.jpg" />
+    <Content Include="Image\Products\27977.jpg" />
+    <Content Include="Image\Products\28013.jpg" />
+    <Content Include="Image\Products\28025.jpg" />
+    <Content Include="Image\Products\28517.jpg" />
+    <Content Include="Image\Products\28523.jpg" />
+    <Content Include="Image\Products\28755.jpg" />
+    <Content Include="Image\Products\28765.jpg" />
+    <Content Include="Image\Products\28776.jpg" />
+    <Content Include="Image\Products\28899.jpg" />
+    <Content Include="Image\Products\28961.jpg" />
+    <Content Include="Image\Products\28965.jpg" />
+    <Content Include="Image\Products\28967.jpg" />
+    <Content Include="Image\Products\29065.jpg" />
+    <Content Include="Image\Products\29201.jpg" />
+    <Content Include="Image\Products\29455.jpg" />
+    <Content Include="Image\Products\29461.jpg" />
+    <Content Include="Image\Products\29796.jpg" />
+    <Content Include="Image\Products\30004.jpg" />
+    <Content Include="Image\Products\30022.jpg" />
+    <Content Include="Image\Products\30086.jpg" />
+    <Content Include="Image\Products\30137.jpg" />
+    <Content Include="Image\Products\30521.jpg" />
+    <Content Include="Image\Products\30759.jpg" />
+    <Content Include="Image\Products\30765.jpg" />
+    <Content Include="Image\Products\30832.jpg" />
+    <Content Include="Image\Products\30997.jpg" />
+    <Content Include="Image\Products\31298.jpg" />
+    <Content Include="Image\Products\31299.jpg" />
+    <Content Include="Image\Products\31303.jpg" />
+    <Content Include="Image\Products\31467.jpg" />
+    <Content Include="Image\Products\31470.jpg" />
+    <Content Include="Image\Products\31472.jpg" />
+    <Content Include="Image\Products\31586.jpg" />
+    <Content Include="Image\Products\31637.jpg" />
+    <Content Include="Image\Products\31739.jpg" />
+    <Content Include="Image\Products\32007.jpg" />
+    <Content Include="Image\Products\32075.jpg" />
+    <Content Include="Image\Products\32078.jpg" />
+    <Content Include="Image\Products\32177.jpg" />
+    <Content Include="Image\Products\32661.jpg" />
+    <Content Include="Image\Products\32681.jpg" />
+    <Content Include="Image\Products\32724.jpg" />
+    <Content Include="Image\Products\32882.jpg" />
+    <Content Include="Image\Products\33100.jpg" />
+    <Content Include="Image\Products\33485.jpg" />
+    <Content Include="Image\Products\33487.jpg" />
+    <Content Include="Image\Products\33506.jpg" />
+    <Content Include="Image\Products\34230.jpg" />
+    <Content Include="Image\Products\34503.jpg" />
+    <Content Include="Image\Products\34636.jpg" />
+    <Content Include="Image\Products\34751.jpg" />
+    <Content Include="Image\Products\34805.jpg" />
+    <Content Include="Image\Products\34889.jpg" />
+    <Content Include="Image\Products\34930.jpg" />
+    <Content Include="Image\Products\35124.jpg" />
+    <Content Include="Image\Products\35541.jpg" />
+    <Content Include="Image\Products\35566.jpg" />
+    <Content Include="Image\Products\35567.jpg" />
+    <Content Include="Image\Products\35686.jpg" />
+    <Content Include="Image\Products\35714.jpg" />
+    <Content Include="Image\Products\35895.jpg" />
+    <Content Include="Image\Products\35897.jpg" />
+    <Content Include="Image\Products\35907.jpg" />
+    <Content Include="Image\Products\35912.jpg" />
+    <Content Include="Image\Products\35919.jpg" />
+    <Content Include="Image\Products\35964.jpg" />
+    <Content Include="Image\Products\36068.jpg" />
+    <Content Include="Image\Products\36227.jpg" />
+    <Content Include="Image\Products\36242.jpg" />
+    <Content Include="Image\Products\36243.jpg" />
+    <Content Include="Image\Products\36485.jpg" />
+    <Content Include="Image\Products\36486.jpg" />
+    <Content Include="Image\Products\36489.jpg" />
+    <Content Include="Image\Products\36491.jpg" />
+    <Content Include="Image\Products\36492.jpg" />
+    <Content Include="Image\Products\36493.jpg" />
+    <Content Include="Image\Products\36495.jpg" />
+    <Content Include="Image\Products\36499.jpg" />
+    <Content Include="Image\Products\36505.jpg" />
+    <Content Include="Image\Products\37502.jpg" />
+    <Content Include="Image\Products\3_16_1.jpg" />
+    <Content Include="Image\Products\637400868092278961_realme-c15-xanh-1_2.png" />
+    <Content Include="Image\Products\853.jpg" />
+    <Content Include="Image\Products\a1k-do.jpg" />
+    <Content Include="Image\Products\realme-c20-1.jpg" />
+    <Content Include="Image\Products\realme-c21y_2.jpg" />
+    <Content Include="Image\Products\realme-c25-1.jpg" />
+    <Content Include="Image\Products\realme_c11_0003_layer_1_2.jpg" />
+    <Content Include="Image\Products\realme_c11_0003_layer_1_2_2.jpg" />
+    <Content Include="Image\Products\realme_c12_0001_realme_c12-removebg-preview.jpg" />
+    <Content Include="Image\Products\redmi-9c_3__1_2.jpg" />
+    <Content Include="Image\Products\redmi_9a_0005_background.jpg" />
+    <Content Include="Image\Products\redmi_9_0002_layer_1.jpg" />
+    <Content Include="Image\Products\redmi_9_0002_layer_1_2_2.jpg" />
+    <Content Include="Image\Products\redmi_note_9s_0002_layer_1.jpg" />
+    <Content Include="Image\Products\sac-khong-day-samsung-ep-6300-3-trong-1.jpg" />
+    <Content Include="Image\Products\sac-khong-day-samsung-ep-p1300.jpg" />
+    <Content Include="Image\Products\sac-nhanh-samsung-ta20ew-kem-cap-type-c-chinh-hang.jpg" />
+    <Content Include="Image\Products\vivo-y21s-600x600_1.jpg" />
+    <Content Include="Image\Products\vsmart-live-4-4gb-1.jpg" />
+    <Content Include="Image\Products\xiaomi-11-lite-5g-014_1.jpg" />
+    <Content Include="Image\Products\xiaomi-mi-10t-pro_2_.jpg" />
+    <Content Include="Image\Products\xiaomi-mi-10t-pro_2__3.jpg" />
+    <Content Include="Image\Products\xiaomi-mi-11-128gb-1.jpg" />
+    <Content Include="Image\Products\xiaomi-mi-11t-1_1.jpg" />
+    <Content Include="Image\Products\xiaomi-mi-11t-pro-price-in-usa-500x500.jpg" />
+    <Content Include="Image\Products\xiaomi-poco-x3_2_.jpg" />
+    <Content Include="Image\Products\xiaomi-redmi-note-10-pro-mi-fan-festival.jpg" />
+    <Content Include="Image\logo.ico" />
+    <Content Include="Image\logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

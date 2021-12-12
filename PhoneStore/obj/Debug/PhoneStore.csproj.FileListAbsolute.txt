@@ -1,0 +1,85 @@
+C:\Users\doant\Dropbox\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\PhoneStore.exe.config
+C:\Users\doant\Dropbox\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\PhoneStore.exe
+C:\Users\doant\Dropbox\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\PhoneStore.pdb
+C:\Users\doant\Dropbox\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.AssemblyReference.cache
+C:\Users\doant\Dropbox\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.DangNhapGUI.resources
+C:\Users\doant\Dropbox\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.Properties.Resources.resources
+C:\Users\doant\Dropbox\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.GenerateResource.cache
+C:\Users\doant\Dropbox\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.CoreCompileInputs.cache
+C:\Users\doant\Dropbox\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.exe
+C:\Users\doant\Dropbox\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.pdb
+E:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\PhoneStore.exe.config
+E:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\PhoneStore.exe
+E:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\PhoneStore.pdb
+E:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.AssemblyReference.cache
+E:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.DangNhapGUI.resources
+E:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.Properties.Resources.resources
+E:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.GenerateResource.cache
+E:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.CoreCompileInputs.cache
+E:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.exe
+E:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.pdb
+G:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\PhoneStore.exe.config
+G:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\PhoneStore.exe
+G:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\PhoneStore.pdb
+G:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.AssemblyReference.cache
+G:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.DangNhapGUI.resources
+G:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.MainGUI.resources
+G:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.Properties.Resources.resources
+G:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.GenerateResource.cache
+G:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.CoreCompileInputs.cache
+G:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.exe
+G:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.pdb
+G:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.NhaCungCapGUI.resources
+E:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.MainGUI.resources
+E:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.NhaCungCapGUI.resources
+C:\Users\doant\OneDrive - kikkdt\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\PhoneStore.exe.config
+C:\Users\doant\OneDrive - kikkdt\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\PhoneStore.exe
+C:\Users\doant\OneDrive - kikkdt\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\PhoneStore.pdb
+C:\Users\doant\OneDrive - kikkdt\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.AssemblyReference.cache
+C:\Users\doant\OneDrive - kikkdt\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.DangNhapGUI.resources
+C:\Users\doant\OneDrive - kikkdt\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.MainGUI.resources
+C:\Users\doant\OneDrive - kikkdt\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.NhaCungCapGUI.resources
+C:\Users\doant\OneDrive - kikkdt\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.Properties.Resources.resources
+C:\Users\doant\OneDrive - kikkdt\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.GenerateResource.cache
+C:\Users\doant\OneDrive - kikkdt\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.CoreCompileInputs.cache
+C:\Users\doant\OneDrive - kikkdt\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.exe
+C:\Users\doant\OneDrive - kikkdt\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.pdb
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.AssemblyReference.cache
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.CTHDNhapHangGUI.resources
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.DangNhapGUI.resources
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.DoiMatKhauGUI.resources
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.KhoHangGUI.resources
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.LichSuNhapHangGUI.resources
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.MainGUI.resources
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.QLNhanVienGUI.resources
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.QLNhapHangGUI.resources
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.Properties.Resources.resources
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.QLSanPhamGUI.resources
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.ThongKeSanPhamTonGUI.resources
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.GenerateResource.cache
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.CoreCompileInputs.cache
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\PhoneStore.exe.config
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\PhoneStore.exe
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\PhoneStore.pdb
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\AxShockwaveFlashObjects.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.Shared.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\ShockwaveFlashObjects.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\stdole.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.csproj.CopyComplete
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.exe
+D:\Projects\2. Do an HK5\dotNet\PhoneStore\PhoneStore\obj\Debug\PhoneStore.pdb
